@@ -2,7 +2,7 @@
 
 XivPlaytime records active time in FINAL FANTASY XIV and sends it to [Playing on Spaceghost Scrobbles](https://spacegho.st/scrobble/playing/).
 
-1. In Dalamud Settings → Experimental → Custom Plugin Repositories, add `https://spacegho.st/mods/ffxiv/xivplaytime/pluginmaster.json`.
+1. In Dalamud Settings → Experimental → Custom Plugin Repositories, add `https://spacegho.st/mods/ffxiv/plugins.json`.
 2. Install XivPlaytime. Create a client token in your [Scrobbles account](https://spacegho.st/scrobble/account/).
 3. Open `/xivplaytime`, save the token, and enable tracking.
 
@@ -18,4 +18,4 @@ Use .NET 10 and Dalamud API 15 references. On Windows, the SDK can discover loca
 DALAMUD_HOME=/path/to/Dalamud dotnet build XivPlaytime.csproj -c Release
 ```
 
-The Dalamud SDK creates the manifest and zip under the release output directory. The initial preview has offline timing and API checks. In-game installation and AFK behavior still require live verification.
+The Dalamud SDK creates the manifest and zip under the release output directory. The stable 0.1.0 package has offline timing and API checks. In-game installation and AFK behavior still require live verification.
