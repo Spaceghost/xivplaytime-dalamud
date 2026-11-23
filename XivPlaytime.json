@@ -1,0 +1,15 @@
+{
+  "Author": "Johnneylee Jack Rollins",
+  "Name": "XivPlaytime",
+  "InternalName": "XivPlaytime",
+  "AssemblyVersion": "0.1.0.0",
+  "Punchline": "A record of the time you actually spend in Eorzea.",
+  "Description": "Track active in-world FINAL FANTASY XIV playtime in Spaceghost Scrobbles. Pauses on the game's AFK status and while loading or logged out. /xivplaytime opens setup.",
+  "ApplicableVersion": "any",
+  "DalamudApiLevel": 15,
+  "RepoUrl": "https://spacegho.st/mods/ffxiv/xivplaytime/",
+  "Tags": ["playtime", "history", "scrobbling"],
+  "LoadRequiredState": 0,
+  "CanUnloadAsync": false,
+  "AcceptsFeedback": false
+}
